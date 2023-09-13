@@ -17,31 +17,31 @@ class CourseSeed extends Seeder
         // adults department
         # 1
         \App\Models\Course::factory()->create([
-            'title' => 'AEF Starter',
+            'title' => 'FFFFFFFF',
             'department_id' => 1
         ]);
 
         # 2
         \App\Models\Course::factory()->create([
-            'title' => 'AEF Elemenatry',
+            'title' => 'DDDDDDD',
             'department_id' => 1
         ]);
 
         # 3
         \App\Models\Course::factory()->create([
-            'title' => 'AEF PreIntermediate',
+            'title' => 'EEEEEE',
             'department_id' => 1
         ]);
 
         # 4
         \App\Models\Course::factory()->create([
-            'title' => 'AEF Intermediate',
+            'title' => 'HHHHHHHH',
             'department_id' => 1
         ]);
 
         # 5
         \App\Models\Course::factory()->create([
-            'title' => 'AEF Advance',
+            'title' => 'JHUYUHe',
             'department_id' => 1
         ]);
 

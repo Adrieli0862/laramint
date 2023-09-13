@@ -153,7 +153,7 @@ class PermissionsSeeder extends Seeder
 
          // teenage student
          $studentTeenage = \App\Models\User::factory()->create([
-            'name' => 'teenage',
+            'name' => 'Alumno',
             'email' => 'teenage@laramint.com',
         ]);
         $studentTeenage->assignRole($role4);
@@ -161,7 +161,7 @@ class PermissionsSeeder extends Seeder
         
          // kids student
          $studentKids = \App\Models\User::factory()->create([
-            'name' => 'kids',
+            'name' => 'Invitado',
             'email' => 'kids@laramint.com',
         ]);
         $studentKids->assignRole($role4);

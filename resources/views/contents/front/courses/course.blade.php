@@ -9,13 +9,14 @@
         <div class="wow fadeInUp" data-wow-delay="0.1s">
             <p class="section-title text-secondary justify-content-center"><span></span>
                 {{ __('Terms') }}
-                <span></span></p>
-            <h1 class="text-center mb-5">What Solutions We Provide</h1>
+                <span>   </span></p>
+            <h1 class="text-center mb-5">Felinos</h1>
         </div>
         <div class="row g-4">
             @forelse ($course->Terms as $term)
             <x-front.term :term="$term" :iteration="$loop->iteration"/>
             @empty
+            <input type="text" name="nombre" id="nombre">
             @endforelse
         </div>
     </div>

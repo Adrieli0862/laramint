@@ -17,7 +17,7 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">  INGRESA </h1>
                                     </div>
                                     <form class="user" method="post" action="{{ route('login') }}">
                                         @csrf
@@ -25,7 +25,7 @@
                                             <input name="email" type="email" 
                                             class="form-control form-control-user @error('email') is-invalid @enderror"
                                                 id="email" aria-describedby="email"
-                                                placeholder="Enter Email Address...">
+                                                placeholder="Ingresa tu  usuario ">
                                             @error('email')
                                                 <span class="invalid-feedback" role="alert">
                                                     {{ $message }}
@@ -45,8 +45,7 @@
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
+                                                <label class="custom-control-label" for="customCheck"> Rercordar contraseña </label>
                                             </div>
                                         </div>
                                         <input value="Login" type="submit" class="btn btn-primary btn-user btn-block" />
@@ -56,14 +55,16 @@
                                     </form>
 
                                     <label>super admin:</label><br/>
-                                    <strong>username: </strong><span>arash.aspx@gmail.com</span><br/>
+                                    <strong>Numero de empleado </strong><span>520023456</span><br/>
                                     <strong>password: </strong><span>password</span>
                                     <hr>
-                                    <label>supervisor:</label><br/>
-                                    <strong>username: </strong><span>supervisor@laramint.com</span><br/>
+                                    <label>Maestro:</label><br/>
+                                    <strong>Número  de empleado </strong><span>520023456</span><br/>
+                                    <strong>password: </strong><span>password</span>
                                     <hr>
-                                    <label>student:</label><br/>
-                                    <strong>username: </strong><span>student@laramint.com</span><br/>
+                                    <label>Alumno</label><br/>
+                                    <strong>Número de cuenta </strong><span>316103544</span><br/>
+                                    <strong>password: </strong><span>password</span>
                                     <hr>
 
                                     {{-- <div class="text-center">

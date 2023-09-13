@@ -16,17 +16,17 @@ class DepartmentSeed extends Seeder
     {
         #1
         \App\Models\Department::factory()->create([
-            'title' => 'Adults',
+            'title' => 'Profesores',
         ]);
 
         #2
         \App\Models\Department::factory()->create([
-            'title' => 'Teenagers',
+            'title' => 'Alumnos',
         ]);
 
         #3
         \App\Models\Department::factory()->create([
-            'title' => 'Kids',
+            'title' => 'Ivitados',
         ]);
 
         #4

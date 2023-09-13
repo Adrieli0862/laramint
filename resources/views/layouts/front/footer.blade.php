@@ -3,10 +3,10 @@
     <div class="container py-5 px-lg-5">
         <div class="row g-5">
             <div class="col-md-6 col-lg-3">
-                <p class="section-title text-white h5 mb-4">Address<span></span></p>
-                <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, Lisbon, Portugal</p>
-                <p><i class="fa fa-phone-alt me-3"></i>+98 935 478 2299</p>
-                <p><i class="fa fa-envelope me-3"></i>arash.aspx@gmail.com</p>
+                <p class="section-title text-white h5 mb-4">Dirección <span></span></p>
+                <p><i class="fa fa-map-marker-alt me-3"></i>Universidad Nacional Autónoma de México, Ciudad Universitaria, Av. Universidad #3000, Colonia, C.U., Coyoacán, 04510 Ciudad de México</p>
+                <p><i class="fa fa-phone-alt me-3"></i> 5528445642</p>
+                <p><i class="fa fa-envelope me-3"></i>fmvz@unam.com</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -15,15 +15,15 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Privacy Policy</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Career</a>
+                <p class="section-title text-white h5 mb-4">Enlace rapido<span></span></p>
+                <a class="btn btn-link" href="">Acerca de nosotros</a>
+                <a class="btn btn-link" href="">contacto</a>
+                <a class="btn btn-link" href="">Politicas de provacidad</a>
+                <a class="btn btn-link" href="">Terminos y condiciones </a>
+                <a class="btn btn-link" href="">Carrera</a>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
+                <p class="section-title text-white h5 mb-4">Galleria<span></span></p>
                 <div class="row g-2">
                     <div class="col-4">
                         <img class="img-fluid" src="{{ URL::to('front/img/portfolio-1.jpg') }}" alt="Image">
@@ -46,8 +46,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
-                <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
+                <p class="section-title text-white h5 mb-4">Boletin informativo<span></span></p>
+                <p> Trabajamos en nuevos casos clínicos para ti contactanos para más información  </p>
                 <div class="position-relative w-100 mt-3">
                     <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
                     <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>

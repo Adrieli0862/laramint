@@ -20,22 +20,22 @@ class SessionSeed extends Seeder
         $sessions = [];
         #1 Session Adult
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'adults | session #1',
+            'title' => 'profesor | session #1',
         ]);
 
         #2 Session Adult
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'adults | session #2',
+            'title' => 'profesor | session #2',
         ]);
 
         #3 Session Adult
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'adults | session #3',
+            'title' => 'profesor | session #3',
         ]);
 
         #4 Session Adult
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'adults | session #4',
+            'title' => 'profesor | session #4',
         ]);
 
         $this->sessionsAddToTerm(1, $sessions);
@@ -44,22 +44,22 @@ class SessionSeed extends Seeder
         # Teenage
         #5 Session Teenage
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Teenage | session #1',
+            'title' => 'Alumno | session #1',
         ]);
 
         #6 Session Teenage
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Teenage | session #2',
+            'title' => 'Alumno | session #2',
         ]);
 
         #7 Session Teenage
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Teenage | session #3',
+            'title' => 'Alumno | session #3',
         ]);
 
         #8 Session Teenage
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Teenage | session #4',
+            'title' => 'Alumno | session #4',
         ]);
 
 
@@ -69,22 +69,22 @@ class SessionSeed extends Seeder
         # kids
         #9 Session Kids
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Kids | session #1',
+            'title' => 'Invitado | session #1',
         ]);
 
         #10 Session Kids
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Kids | session #2',
+            'title' => 'Invitado | session #2',
         ]);
 
         #11 Session Kids
         $sessions[] =  \App\Models\Session::factory()->create([
-            'title' => 'Kids | session #3',
+            'title' => 'Invitado | session #3',
         ]);
 
         #12 Session Kids
         $sessions[] = \App\Models\Session::factory()->create([
-            'title' => 'Kids | session #4',
+            'title' => 'Invitado | session #4',
         ]);
 
         $this->sessionsAddToTerm(3, $sessions);
