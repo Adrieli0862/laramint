@@ -21,7 +21,7 @@ class QuestionType extends Seeder
         ]);
 
         ModelsQuestionType::create([
-            'title' => 'TrueFalseQuestion',
+            'title' => 'FalsoverdaderoQuestion',
             'icon' => '',
             'is_mentor' => false
         ]);
@@ -33,7 +33,7 @@ class QuestionType extends Seeder
         ]);
 
         ModelsQuestionType::create([
-            'title' => 'EssayQuestion',
+            'title' => 'EnsayoQuestion',
             'icon' => '',
             'is_mentor' => true
         ]);

@@ -20,7 +20,7 @@ class FileFactory extends Factory
         return [
             'title' => $this->faker->unique()->name,
             'description' => $this->faker->sentence(),
-            'file' =>  'avatar.txt',
+            'file' =>  'file',
             'file_size' => $this->faker->numberBetween(1200, 2800),
             'file_type' => 'img'
         ];

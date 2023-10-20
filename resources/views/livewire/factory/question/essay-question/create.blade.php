@@ -2,17 +2,17 @@
 
     <div class="card shadow p-2">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">question essay:</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Pregunta:</h6>
         </div>
         <div class="card-body">
 
             <input type="hidden" wire:model="questionTypeId" />
             <div class="form-group">
-                <label for="titleofquestion">title of question</label>
+                <label for="titleofquestion">Titulo  de la pregunta</label>
                 <input type="text" class="form-control" id="titleofquestion" wire:model="title">
             </div>
             <div class="form-group">
-                <label for="descriptionofquestion">description of question</label>
+                <label for="descriptionofquestion">Descripcion de la pregunta</label>
                 <textarea class="form-control" id="descriptionofquestion" wire:model="question_body"></textarea>
             </div>
             @forelse($answers as $index => $answer)

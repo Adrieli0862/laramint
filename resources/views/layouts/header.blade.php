@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UNAM ( Elearning & Gamification LMS )</title>
+    <title> Uiversidad Nacional Autonoma de Mexio </title>
 
     <!-- Custom fonts for this template-->
     <link href="{{URL::to('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">

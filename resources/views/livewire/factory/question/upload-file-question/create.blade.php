@@ -1,18 +1,22 @@
+
+
+
 <div class="col-12 text-left mt-4 p-4">
 
     <div class="card shadow p-2">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">question upload file:</h6>
+            <h6 class="m-0 font-weight-bold text-primary">DESCARGAR RESPUESTA</h6>
         </div>
         <div class="card-body">
 
             <input type="hidden" wire:model="questionTypeId" />
             <div class="form-group">
-                <label for="titleofquestion">title of question</label>
+                <label for="titleofquestion">Titulo </label>
                 <input type="text" class="form-control" id="titleofquestion" wire:model="title">
             </div>
             <div class="form-group">
-                <label for="descriptionofquestion">description of question</label>
+                <label for="descriptionofquestion">descripcion </label>
+                
                 <textarea class="form-control" id="descriptionofquestion" wire:model="question_body"></textarea>
             </div>
             @forelse($answers as $index => $answer)

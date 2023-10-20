@@ -12,7 +12,7 @@ class Create extends QuestionComponents
         $this->answers = [
             'max_size' => 1024,
             'min_size' => 128,
-            'file_type' => 'pdf,word,excel,images'
+            'file_type' => 'images'
         ];
         if (!empty($this->question)) {
             $this->setValueWithQuestion();

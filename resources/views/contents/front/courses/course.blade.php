@@ -16,7 +16,7 @@
             @forelse ($course->Terms as $term)
             <x-front.term :term="$term" :iteration="$loop->iteration"/>
             @empty
-            <input type="text" name="nombre" id="nombre">
+            <input type="" name="nombre" id="nombre">
             @endforelse
         </div>
     </div>

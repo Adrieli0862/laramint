@@ -292,7 +292,7 @@ class QuestionSeed extends Seeder
                     "answers" => [
                         "max_size" => 1024,
                         "min_size" => 128,
-                        "file_type" => "word"
+                        "file_type" => "img"
                     ],
                     "correctAnswer" => []
                 ]

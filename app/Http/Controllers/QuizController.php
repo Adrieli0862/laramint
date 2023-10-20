@@ -86,7 +86,8 @@ class QuizController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * 
+     * * Actualizar el recurso especificado en el almacenamiento.
      *
      * @param  QuizRequest $request
      * @param  Quiz $quiz
@@ -102,7 +103,7 @@ class QuizController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     *Elimine el recurso especificado del almacenamiento.
      *
      * @param  Quiz $quiz
      * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
@@ -124,7 +125,7 @@ class QuizController extends Controller
 
 
     /**
-     * change the sequences of file belongs to document
+     * cambiar las secuencias del archivo que pertenece al documento
      *
      * @param  QuizQuestion $from
      * @param  string  $move
@@ -152,7 +153,7 @@ class QuizController extends Controller
 
 
     /**
-     * change the sequences of file belongs to document
+     * cambiar las secuencias del archivo que pertenece al documento
      *
      * @param  Quiz  $parent
      * @param  Question  $question

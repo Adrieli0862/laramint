@@ -17,7 +17,7 @@ class TermSeed extends Seeder
         // adults department && Starter Course
         # 1
         \App\Models\Term::factory()->create([
-            'title' => 'aaaaa #1',
+            'title' => 'Starter Term #1',
             'department_id' => 1,
             'course_id' => 1
         ]);
@@ -128,7 +128,7 @@ class TermSeed extends Seeder
         // teenager department && Got It Starter Course
         # 15
         \App\Models\Term::factory()->create([
-            'title' => 'Teen aaaaa #1',
+            'title' => 'Teen Starter Term #1',
             'department_id' => 2,
             'course_id' => 6
         ]);
@@ -214,7 +214,7 @@ class TermSeed extends Seeder
         // kids department && Family & Friend Starter
         # 26
         \App\Models\Term::factory()->create([
-            'title' => 'Kids aaaa',
+            'title' => 'Kids Starter Term #1',
             'department_id' => 3,
             'course_id' => 10
         ]);

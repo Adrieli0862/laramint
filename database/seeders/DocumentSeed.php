@@ -20,7 +20,7 @@ class DocumentSeed extends Seeder
         #adult
         #1
         $file = \App\Models\File::factory()->create([
-            'title' => 'Adult Video #1',
+            'title' => 'Caso clinico Introduccion',
             'description' => 'Adult Video #1',
             'file' => 'mp4/xKOV4ySeFiaZPLiDOHNgX7B8zd0zglaA59SLzCDG.mp4',
             'file_size' => '21811717',

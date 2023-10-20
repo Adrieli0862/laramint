@@ -147,7 +147,7 @@ class QuestionTest extends BaseTest
             ->set('title', 'upload A1')
             ->set('question_body', 'upload A1 question')
             ->set('questionTypeId', 5)
-            ->set('answers', ["max_size" => 1024, "min_size" => 128, "file_type" => "pdf,word,excel,images"])
+            ->set('answers', ["max_size" => 1024, "min_size" => 128, "file_type" => "images"])
             ->set('correctAnswer', [])
             ->call('store');
 

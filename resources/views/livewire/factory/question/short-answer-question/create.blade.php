@@ -2,22 +2,22 @@
 
     <div class="card shadow p-2">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">question short answer:</h6>
+            <h6 class="m-0 font-weight-bold text-primary">PREGUNTA DE RESPUESTA CORTA :</h6>
         </div>
         <div class="card-body">
 
             <input type="hidden" wire:model="questionTypeId" />
             <div class="form-group">
-                <label for="titleofquestion">title of question</label>
+                <label for="titleofquestion">Titulo de la pregunta</label>
                 <input type="text" class="form-control" id="titleofquestion" wire:model="title">
             </div>
             <div class="form-group">
-                <label for="descriptionofquestion">description of question</label>
+                <label for="descriptionofquestion">Descripcion</label>
                 <textarea class="form-control" id="descriptionofquestion" wire:model="question_body"></textarea>
             </div>
             @forelse($answers as $index => $answer)
             <div class="form-group">
-            <label for="answer{{ $index }}">answer {{ $loop->iteration }}</label>
+            <label for="answer{{ $index }}">Respuesta {{ $loop->iteration }}</label>
             <div class="row">
                 <div class="col-11">
                     <input type="text" class="form-control" id="answer{{ $index }}" wire:model="answers.{{ $index }}">

@@ -10,10 +10,19 @@
 <div class="container-xxl py-5">
     <div class="container py-5 px-lg-5">
         <div class="wow fadeInUp" data-wow-delay="0.1s">
-            <p class="section-title text-secondary justify-content-center"><span></span>Let’s select Your Custom Online Learning plans<span></span></p>
-            <h1 class="text-center mb-5">Laramint has a plan designed to help your learners learn something new.</h1>
-        </div>
+            <p class="section-title text-secondary justify-content-center"><span></span> Esto sera el perfil <span></span></p>
+            <h1 class="text-center mb-5">Alumnos y maestros </h1>
+       
+       
+       
+<!--        </div>
+
+
+        
         <div class="row g-4">
+            
+
+
             
             @forelse($plans as $plan)
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -47,6 +56,7 @@
         </div>
     </div>
 </div>
+-->
 <!-- Service End -->
 
 @endsection

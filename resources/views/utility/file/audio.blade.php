@@ -4,7 +4,7 @@
 
     <audio controls>
         <source src="{{ $url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+            Su navegador no soporta el elemento de audio.
+            </audio>
     
 </div>

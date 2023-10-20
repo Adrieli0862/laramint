@@ -23,19 +23,39 @@
                                
                             </div>
                             <div class="form-group">
-                                <input name="email" type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder=" REPITE EL NUMERO  DE USUARIO">
+                                <input name="email" type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder=" INGRESA TU CORREO ELECTRONICO">
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input name="password" type="password" class="form-control form-control-user" id="********" placeholder="Password">
+                                    <input name="password" type="password" class="form-control form-control-user" id="********" placeholder="Contraseña">
                                 </div>
                                 <div class="col-sm-6">
                                     <input name="password_confirmation" type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repite tu contraseña">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">
-                             
-                            </button>
+                            <br><br/> 
+                            
+                            <input value="Registrate" type="submit" class="btn btn-primary btn-user btn-block" />
+
+                            <br><br/> 
+                            <br><br/> 
+                            <br><br/> 
+                            <br><br/> 
+                            </form>
+
+
+
+                            
+                             <!--
+                            <button type="submit" class="btn btn-primary btn-user btn-block">  </button>                   
+                            
+                           
+                            <br><br/> 
+                            <br><br/> 
+                            <br><br/> 
+                            <br><br/> 
+                            </form>
+                           
                             <hr>
                             <a href="index.html" class="btn btn-google btn-user btn-block">
                                 <i class="fab fa-google fa-fw"></i> 
@@ -43,11 +63,13 @@
                             <a href="index.html" class="btn btn-facebook btn-user btn-block">
                                 <i class="fab fa-facebook-f fa-fw"></i> 
                             </a>
-                        </form>
+                        
+                    -->
                         <hr>
                         <div class="text-center">
                             <a class="small" href="forgot-password">Olvide mi contraseña</a>
                         </div>
+                    
                         <div class="text-center">
                             <a class="small" href="login">Already have an account? Login!</a>
                         </div>

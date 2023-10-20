@@ -18,24 +18,24 @@ class ParticipantSeeder extends Seeder
     public function run()
     {
 
-        $profesor = 1;
-        $invitado = 3;
-        $alumno = 2;
+        $adult = 1;
+        $kids = 3;
+        $teenage = 2;
 
         $supervisor = Role::where('name', 'supervisor')->first()->id;
         $mentor = Role::where('name', 'mentor')->first()->id;
         $student = Role::where('name', 'student')->first()->id;
 
         $this->participantAddTerm(
-            $profesor,
+            $adult,
             [2 => $supervisor, 5 => $mentor, 8 => $student]
         );
         $this->participantAddTerm(
-            $alumno,
+            $teenage,
             [4 => $supervisor, 7 => $mentor, 9 => $student]
         );
         $this->participantAddTerm(
-            $invitado,
+            $kids,
             [3 => $supervisor, 6 => $mentor, 10 => $student]
         );
     }

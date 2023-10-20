@@ -1,7 +1,7 @@
 <div class="row">
     
       <div class="col-md-4">
-        <label for="questionTypeId">{{ __('Question type:') }}</label>
+        <label for="questionTypeId">{{ __('Tipo de pregunta:') }}</label>
         <select id="questionTypeId" wire:model="questionTypeId" class="form-control">
             @forelse ($questionTypes as $types)
                 <option value="{{ $types->id }}">{{ str_replace('Question' , '' ,  $types->title) }}</option>
@@ -17,7 +17,7 @@
               <span class="icon text-white-50">
                 <i class="fas fa-flag"></i>
               </span>
-              <span class="text">create</span>
+              <span class="text">Realizar</span>
           </button>
       </div>
       @if($quiz)
